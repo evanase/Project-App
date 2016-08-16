@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Academy Assistant</string>
+    <string name="login">login</string>
+    <string name="academy">Academy</string>
+    <string name="assistant">Assistant</string>
+    <string name="aa">Academy Assistant</string>
+    <string name="ps">Profile Student</string>
+    <string name="pt">Profile Teacher</string>
+    <string name="map">Map</string>
+    <string name="tc">Table Class</string>
+    <string name="name">Name</string>
+    <string name="target">Target</string>
+    <string name="department">Department</string>
+    <string name="age">Age</string>
+    <string name="tier">Tier</string>
+    <string name="tables">Table Student</string>
+    <string name="tablet">Table Teacher</string>
+    <string name="it">Information Technology</string>
+    <string name="tea">Teacher</string>
+    <string name="student">Student</string>
+    <string name="usersa">User A (Student)</string>
+    <string name="userta">User A (Teacher)</string>
+    <string name="save">Save</string>
+
+</resources>

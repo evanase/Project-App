@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="id_backgrond">#ffffff</color>
+    <color name="pass_backgrond">#ffffff</color>
+    <color name="dark_font">#000</color>
+    <color name="backgroundb1">#00CCFF</color>
+    <color name="backgroundb2">#66CC66</color>
+    <color name="backgroundb3">#663399</color>
+    <color name="backgroundb4">#FF9900</color>
+    <color name="backgroundtext">#FFFFFF</color>
+    <color name="department">#003366</color>
+    <color name="login">#00DD00</color>
+    <color name="save">#FFFF33</color>
+</resources>
