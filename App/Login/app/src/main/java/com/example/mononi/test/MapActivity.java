@@ -31,15 +31,15 @@ public class MapActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
-        /*Button ZoomMap = (Button) findViewById(R.id.button9);*/
-        /*ZoomMap.setOnClickListener(new View.OnClickListener(){
+        Button ZoomMap = (Button) findViewById(R.id.map1);
+        ZoomMap.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (MapActivity.this, ZoomMapActivity.class);
 
                 startActivity(intent);
             }
-        });*/
+        });
 
         /*imageView = (ImageView) findViewById(R.id.imageView);
         SGD = new ScaleGestureDetector(this, new ScaleListener());
@@ -62,7 +62,7 @@ public class MapActivity extends Activity {
         SGD.onTouchEvent(event);
         return true;*/
 
-        mImage = (ImageViewTouch) findViewById(R.id.image);
+        /*mImage = (ImageViewTouch) findViewById(R.id.image);
 
         // set the default image display type
         mImage.setDisplayType(ImageViewTouchBase.DisplayType.FIT_IF_BIGGER);
@@ -71,9 +71,9 @@ public class MapActivity extends Activity {
         int size = (int) (Math.min(metrics.widthPixels, metrics.heightPixels) / 0.55);
 
 
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.map2);
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.map);
 
-        mImage.setImageBitmap(bitmap, null, -1, -1);
+        mImage.setImageBitmap(bitmap, null, -1, -1);*/
 
     }
 }
