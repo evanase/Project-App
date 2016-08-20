@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
+import android.widget.Toast;
 
 /*import static com.example.mononi.test.Constants.CONTENT;
 import static com.example.mononi.test.Constants.TABLE_NAME;
@@ -45,9 +46,26 @@ public class MainActivity extends Activity {
         private void addNote(String str) {*/
 
 
+        Button login=(Button)findViewById(R.id.login);
+        final EditText id=(EditText)findViewById(R.id.id);
+        final EditText date=(EditText)findViewById(R.id.date);
 
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+              if(id.getText().toString().equals("5839010039") &&
+                      date.getText().toString().equals("19/12/2539")){
+                    Intent intent = new Intent(MainActivity.this, MenuActivity.class);
 
-        Button loginButton = (Button) findViewById(R.id.login);
+                    startActivity(intent);
+                    }
+                else{
+                  Toast.makeText(getApplicationContext(), "ID or Date wrong",Toast.LENGTH_SHORT).show();
+              }
+            }
+                                 });
+
+        /*Button loginButton = (Button) findViewById(R.id.login);
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,6 +73,6 @@ public class MainActivity extends Activity {
 
                 startActivity(intent);
             }
-        });
+        });*/
     }
 }

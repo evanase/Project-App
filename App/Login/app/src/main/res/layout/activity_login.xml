@@ -38,7 +38,8 @@
         android:layout_height="50dp"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/id"
+        android:hint="@string/id"
         android:background="@color/id_backgrond"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="40dp"
@@ -49,9 +50,10 @@
         android:layout_height="50dp"
         android:inputType="date"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/date"
+        android:hint="@string/date"
         android:background="@color/pass_backgrond"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/id"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
 
@@ -60,7 +62,7 @@
         android:layout_height="75dp"
         android:text="@string/login"
         android:id="@+id/login"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/date"
         android:layout_marginTop="40dp"
         android:background="@color/login"
         android:layout_centerHorizontal="true" />

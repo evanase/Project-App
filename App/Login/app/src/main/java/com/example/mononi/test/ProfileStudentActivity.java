@@ -1,8 +1,11 @@
 package com.example.mononi.test;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
@@ -19,6 +22,8 @@ import it.sephiroth.android.library.imagezoom.ImageViewTouch;
  * Created by Evanase on 6/19/2016.
  */
 public class ProfileStudentActivity extends Activity {
+
+    private static Bitmap img;
 
     private static int RESULT_LOAD_IMAGE = 1;
 
