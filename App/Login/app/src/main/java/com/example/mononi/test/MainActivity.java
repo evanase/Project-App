@@ -18,12 +18,17 @@ import static com.example.mononi.test.Constants._ID;*/
 
 public class MainActivity extends Activity {
 
+    private EditText id,date;
+
     /*private HelperClass helper;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_login);
+
+        id =(EditText)findViewById(R.id.id);
+        date =(EditText)findViewById(R.id.date);
 
        /* helper = new HelperClass(this);
 
@@ -47,8 +52,8 @@ public class MainActivity extends Activity {
 
 
         Button login=(Button)findViewById(R.id.login);
-        final EditText id=(EditText)findViewById(R.id.id);
-        final EditText date=(EditText)findViewById(R.id.date);
+        /*final EditText id=(EditText)findViewById(R.id.id);
+        final EditText date=(EditText)findViewById(R.id.date);*/
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,4 +80,17 @@ public class MainActivity extends Activity {
             }
         });*/
     }
+
+        /*public void login(View v){
+            String id_stu = id.getText().toString();
+            String date_stu = date.getText().toString();
+            new SigninActivity(this).execute(id,date);
+        }
+
+    public void loginPost(View v){
+        String id_stu = id.getText().toString();
+        String date_stu = date.getText().toString();
+        new SigninActivity(this).execute(id,date);
+    }*/
+
 }
